@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="460.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StudentRegistrationController">
+   <children>
+      <JFXTextField fx:id="txtStudentId" layoutX="66.0" layoutY="45.0" prefHeight="25.0" prefWidth="200.0" promptText="Student Id" />
+      <JFXTextField fx:id="txtStudentName" layoutX="66.0" layoutY="102.0" prefHeight="25.0" prefWidth="200.0" promptText="Student Name" />
+      <JFXTextField fx:id="txtAddress" layoutX="66.0" layoutY="166.0" prefHeight="25.0" prefWidth="200.0" promptText="Address" />
+      <JFXTextField fx:id="txtContact" layoutX="66.0" layoutY="230.0" prefHeight="25.0" prefWidth="200.0" promptText="Contact" />
+      <JFXDatePicker fx:id="txtDateofBirth" layoutX="66.0" layoutY="296.0" prefHeight="28.0" prefWidth="241.0" promptText="Date Of Birth" />
+      <JFXComboBox fx:id="cmbGender" layoutX="66.0" layoutY="359.0" prefHeight="25.0" prefWidth="200.0" promptText="Gender" />
+      <JFXTextField fx:id="txtRegistrationid" layoutX="375.0" layoutY="58.0" prefHeight="25.0" prefWidth="200.0" promptText="Registration id" />
+      <JFXTextField fx:id="txtRegistrationFee" layoutX="375.0" layoutY="115.0" prefHeight="25.0" prefWidth="200.0" promptText="Registration Fee" />
+      <JFXComboBox fx:id="cmbCourse" layoutX="375.0" layoutY="179.0" prefHeight="25.0" prefWidth="200.0" promptText="Course" />
+      <JFXTextField fx:id="txtBatch" layoutX="375.0" layoutY="243.0" prefHeight="25.0" prefWidth="200.0" promptText="Batch" />
+      <JFXButton fx:id="btnRegister" layoutX="449.0" layoutY="312.0" onAction="#btnRegisterOnAction" style="-fx-background-color: grey;" text="Register" textFill="WHITE" />
+   </children>
+</AnchorPane>

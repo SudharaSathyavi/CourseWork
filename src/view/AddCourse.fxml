@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="460.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCourseController">
+   <children>
+      <JFXTextField fx:id="txtCourseCode" labelFloat="true" layoutX="275.0" layoutY="96.0" prefHeight="25.0" prefWidth="200.0" promptText="Course Code" />
+      <JFXTextField fx:id="txtCourseName" labelFloat="true" layoutX="275.0" layoutY="158.0" prefHeight="25.0" prefWidth="200.0" promptText="Course Name" />
+      <JFXTextField fx:id="txtDuration" labelFloat="true" layoutX="275.0" layoutY="212.0" prefHeight="25.0" prefWidth="200.0" promptText="Duration" />
+      <JFXTextField fx:id="txtCourseFee" labelFloat="true" layoutX="275.0" layoutY="273.0" prefHeight="25.0" prefWidth="200.0" promptText="Course Fee" />
+      <JFXButton fx:id="btnAddCourse" layoutX="310.0" layoutY="331.0" onAction="#btnAddCourseOnAction" prefHeight="34.0" prefWidth="130.0" style="-fx-background-color: gray;" text="Add Course" textFill="WHITE" />
+   </children>
+</AnchorPane>

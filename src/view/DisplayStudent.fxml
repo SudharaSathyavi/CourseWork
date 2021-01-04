@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DisplayStudentController">
+   <children>
+      <JFXComboBox fx:id="cmbCourse" layoutX="300.0" layoutY="46.0" prefHeight="25.0" prefWidth="151.0" promptText="Course" />
+      <JFXComboBox fx:id="cmbBatch" layoutX="300.0" layoutY="105.0" prefHeight="25.0" prefWidth="151.0" promptText="Batch" />
+      <TableView fx:id="tblStudent" layoutX="63.0" layoutY="180.0" prefHeight="200.0" prefWidth="626.0">
+        <columns>
+          <TableColumn fx:id="colStudentId" prefWidth="75.0" text="Student Id" />
+          <TableColumn fx:id="colStudentName" prefWidth="161.0" text="Student Name" />
+            <TableColumn fx:id="colAddress" prefWidth="101.0" text="Address" />
+            <TableColumn fx:id="colContact" prefWidth="118.0" text="Contact" />
+            <TableColumn fx:id="colDateOfBirth" prefWidth="81.0" text="Date Of Birth" />
+            <TableColumn fx:id="colGender" prefWidth="89.0" text="Gender" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

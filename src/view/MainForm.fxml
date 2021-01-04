@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="515.0" prefWidth="750.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <JFXButton fx:id="btnAddCourse" layoutX="220.0" layoutY="14.0" onAction="#btnAddCourseOnAction" style="-fx-background-color: darkgrey;" text="Add Course" textFill="WHITE" />
+      <JFXButton fx:id="btnRegistration" layoutX="328.0" layoutY="14.0" onAction="#btnRegistrationOnAction" style="-fx-background-color: darkgrey;" text="Registration" textFill="WHITE" />
+      <JFXButton fx:id="btnStudentDetail" layoutX="434.0" layoutY="14.0" onAction="#btnStudentDetailOnAction" style="-fx-background-color: darkgrey;" text="Student Details" textFill="WHITE" />
+      <AnchorPane fx:id="rootPane" layoutY="55.0" prefHeight="460.0" prefWidth="750.0" />
+   </children>
+</AnchorPane>
